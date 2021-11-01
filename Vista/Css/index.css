@@ -1,0 +1,29 @@
+header{
+    background: blue;
+}
+nav{
+    background: blue;
+    text-align: center;
+    color: white;
+}
+#tit{
+    text-align: center;
+    background: cornflowerblue;
+}
+.ciudades{
+    width: 200px;
+    height: 170px;
+    border: 3px solid cornflowerblue;
+    background: none;
+    margin-right: 12px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+#viaja{
+    background: blue;
+    text-align: center;
+    color: white;
+}
+

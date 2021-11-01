@@ -1,0 +1,26 @@
+-- base de datos en phpmyadmin
+create database bits;
+
+--tablas
+create table persona( Nombre_persona varchar(20), Rol_persona varchar(20), Cedula_persona varchar(20) PRIMARY KEY, Email_persona varchar(20) );
+
+create table usuario( Nombre_usuario varchar(20), Cedula_usuario varchar(20) primary KEY, Email_usuario varchar(20), Numero_telefono int, Contrasena varchar(20) );
+
+create table pasajero( Nombre_pasajero varchar(20), Cedula_pasajero int, Email_pasajero varchar(20) );
+
+create table reserva( Nombre_reserva varchar(20), Tipo_reserva varchar(20) );
+
+create table equipaje( Tipo_maleta varchar(20), Origen_equipaje varchar(20), Destino_equipaje varchar(20), Tipo_usuario varchar(20) );
+
+create table vuelos( Id_vuelo int primary key, Fecha_vuelo varchar(30), Ciudad_origen_vuelo varchar(20), Ciudad_destino_vuelo varchar(20), Puestos_maximos_vuelo int(20) );
+
+create table aeropuerto( Nombre_aeropuerto varchar(20), Codigo_aeropuerto int, Ciudad_aeropuerto varchar(20), Siglas_aeropuerto varchar(20) );
+
+create table pago( Formadepago varchar(20) );
+
+create table Tarjetacredito( Numero int PRIMARY KEY, Fechavencimiento varchar(20), Cvv varchar(20), BancoApagar varchar(20), Monto int ); 
+
+create table pse( Correopagador varchar(20), BancoApagar varchar(20), Monto int );
+
+alter table tarjetacredito
+  add primary key (numero);

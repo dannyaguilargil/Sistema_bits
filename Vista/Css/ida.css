@@ -1,0 +1,36 @@
+header{
+    background: blue;
+}
+nav{
+    background: blue;
+    text-align: center;
+    color: white;
+}
+#tit{
+    text-align: center;
+    background: cornflowerblue;
+}
+#ida{
+   border: dotted;
+   border-color: cornflowerblue;
+   border-radius: 20px;
+   
+}
+#ida:hover{
+    border-style: solid;
+    border-color: blue;
+    font-size: 20px;
+
+}
+#idayvuelta{
+    border: dotted;
+    border-color: cornflowerblue;
+    border-radius: 20px;
+    
+ }
+ #idayvuelta:hover{
+     border-style: solid;
+     border-color: blue;
+     font-size: 20px;
+ 
+ }

@@ -1,0 +1,15 @@
+header{
+    background: blue;
+}
+nav{
+    background: blue;
+    text-align: center;
+    color: white;
+}
+#tit{
+    text-align: center;
+    background: cornflowerblue;
+}
+div{
+    border-radius: 20px;
+}

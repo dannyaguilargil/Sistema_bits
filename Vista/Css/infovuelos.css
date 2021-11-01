@@ -1,0 +1,44 @@
+header{
+    background: blue;
+}
+nav{
+    background: blue;
+    text-align: center;
+    color: white;
+}
+#tit{
+    text-align: center;
+    background: cornflowerblue;
+}
+.gallery__{
+    width: 50px;
+    height: 50px;
+    border: 3px solid blue;
+    background: white;
+    margin-right: 12px;
+    margin: 10px;
+    display: inline-block;
+ 
+}
+select{
+    color: green;
+}
+option{
+    color: #339FFF;
+    background: #D5DBDB ;
+}
+option:hover{
+    color: yellow;
+}
+.infogeneral{
+    width: 1100px;
+    height: 50px;
+    text-align: center;
+    background: none;
+    margin-right: 12px;
+    margin: 10px;
+}
+#container1{
+    background: white;
+    color: green;
+}
